@@ -115,17 +115,6 @@
                     </div>
                     <div class="desc">
                         <h1>Привет, Артем!</h1>
-                        <form
-                                name="contact"
-                                data-netlify="true"
-                                method="POST"
-                        >
-                            <label>
-                                Я хочу твою почту:
-                                <input type="email" name="email">
-                            </label>
-                            <button type="submit">Send</button>
-                        </form>
                         <div class="links">
                             <a class="no-return" href="#">RedTower</a>
                             <a class="no-return" href="#">Casual</a>
@@ -136,10 +125,10 @@
                         </div>
                         <div class="actions">
                             <a class="wishlist no-return" href="#">Add to Wishlist</a>
-                            <button class="default install" onclick="openPage()">Install</button>
+                            <button class="default install" onclick="openAnotherPage()">Install</button>
                             <script>
-    function openPage() {
-      window.location.href = "https://www.google.com";
+    function openAnotherPage() {
+      window.location.href = "/email_collection.html";
     }
 
                             </script>
